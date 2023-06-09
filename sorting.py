@@ -15,6 +15,6 @@ for j in range(n):
     ele=eval(input('Enter a number = '))
     l.append(ele)
 lt1=no(l)
-print("Sorted numbers = ")
+print("Sorted numbers in ascending order = ")
 for x in range(len(lt1)):
     print(lt1[x],end=',')
